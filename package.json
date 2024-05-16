@@ -1,15 +1,17 @@
 {
-    "name": "my-monorepo",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-      "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern"
-    },
-    "devDependencies": {
-        "@repo/eslint-config": "workspace:*",
-        "@repo/typescript-config": "workspace:*"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern",
+    "format": "prettier --config .prettierrc . --write"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "prettier": "^3.2.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
