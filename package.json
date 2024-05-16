@@ -4,11 +4,13 @@
   "description": "",
   "scripts": {
     "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern",
-    "format": "prettier --config .prettierrc . --write"
+    "format": "prettier --config .prettierrc . --write",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5"
   },
   "keywords": [],
