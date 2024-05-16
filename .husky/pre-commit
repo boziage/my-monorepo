@@ -1,1 +1,2 @@
+echo '🚀🚀🚀 lint-staged 校验执行中 ...'
 npx lint-staged

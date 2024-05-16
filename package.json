@@ -5,13 +5,16 @@
   "scripts": {
     "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx --no-error-on-unmatched-pattern",
     "format": "prettier --config .prettierrc . --write",
-    "prepare": "husky"
+    "prepare": "husky",
+    "cz": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"

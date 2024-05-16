@@ -1,1 +1,2 @@
+echo '🚀🚀🚀 commitlint 校验执行中 ...'
 npx --no -- commitlint --edit "$1"
